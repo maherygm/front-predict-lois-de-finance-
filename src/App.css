@@ -1,0 +1,8 @@
+.App {
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+form {
+  margin: 20px 0;
+}
