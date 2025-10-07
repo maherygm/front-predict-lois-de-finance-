@@ -40,10 +40,10 @@ function ForecastResult({ forecast, interpretation }) {
   return (
     <div className="flex flex-col gap-8 p-4 md:p-6 lg:p-10">
       {/* Bloc principal responsive */}
-      <div className="flex flex-col lg:flex-row justify-center items-stretch gap-6">
+      <div className="flex flex-col 2xl:flex-row justify-center items-stretch gap-6">
         {/* Graphique régional */}
-        <div className="w-full lg:w-2/3 bg-white rounded-2xl shadow-xl p-6 hover:shadow-2xl transition-all">
-          <h2 className="font-bold text-lg md:text-xl text-blue-700 mb-4 tracking-tight flex items-center gap-2">
+        <div className="w-full 2xl:w-2/3 bg-white rounded-2xl shadow-xl p-6 hover:shadow-2xl transition-all">
+          <h2 className="font-bold text-lg 2xl:text-xl text-blue-700 mb-4 tracking-tight flex items-center gap-2">
             <span className="inline-block w-2 h-6 bg-blue-600 rounded-full mr-1" />
             Prévisions régionales{" "}
             <span className="font-normal text-gray-500 text-base">
@@ -111,8 +111,8 @@ function ForecastResult({ forecast, interpretation }) {
         </div>
 
         {/* Graphique national */}
-        <div className="w-full lg:w-1/3 bg-white rounded-2xl shadow-xl p-6 hover:shadow-2xl transition-all">
-          <h2 className="font-bold text-lg md:text-xl text-blue-700 mb-4 tracking-tight flex items-center gap-2">
+        <div className="w-full 2xl:w-1/3 bg-white rounded-2xl shadow-xl p-6 hover:shadow-2xl transition-all">
+          <h2 className="font-bold text-lg 2xl:text-xl text-blue-700 mb-4 tracking-tight flex items-center gap-2">
             <span className="inline-block w-2 h-6 bg-blue-600 rounded-full mr-1" />
             Prévision nationale{" "}
             <span className="font-normal text-gray-500 text-base">
